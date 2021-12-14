@@ -102,6 +102,5 @@ public class Aplicacao {
 	public static void main(String[] args) throws InterruptedException, InstantiationException, IllegalAccessException, ClassNotFoundException, IllegalArgumentException, InvocationTargetException, NoSuchMethodException, SecurityException {
 		Aplicacao app = new Aplicacao();
 		app.segundaAvalicao();
-	}
-	
+	}	
 }
