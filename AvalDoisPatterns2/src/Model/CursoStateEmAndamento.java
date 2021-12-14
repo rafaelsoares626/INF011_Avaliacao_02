@@ -43,5 +43,4 @@ public class CursoStateEmAndamento extends CursoStateAbstract implements CursoSt
 			curso.enviarNotificacao("notificacao de restauramento.", obs.getNomeNotificacao(), curso.toString());
 		}		
 	}
-
 }
