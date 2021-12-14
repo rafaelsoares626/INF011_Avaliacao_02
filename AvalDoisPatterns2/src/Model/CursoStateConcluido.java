@@ -14,6 +14,5 @@ public class CursoStateConcluido extends CursoStateAbstract implements CursoStat
 	@Override
 	public String getEstado(){
 		return "O curso foi concluido!";
-	}
-	
+	}	
 }
