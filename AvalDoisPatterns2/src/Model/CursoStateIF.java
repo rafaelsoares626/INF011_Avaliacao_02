@@ -3,6 +3,7 @@ package Model;
 import Model.Curso.Situacao;
 
 public interface CursoStateIF {
+	
 	public CursoStateIF ativar();
 	public CursoStateIF suspender();
 	public CursoStateIF cancelar();
