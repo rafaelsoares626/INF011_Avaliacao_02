@@ -20,5 +20,4 @@ public class NotificacaoEmailObserver implements ObserverIF{
 	public String getNomeNotificacao() {
 		return "Email";
 	}
-
 }
