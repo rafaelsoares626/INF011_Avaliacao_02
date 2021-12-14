@@ -71,5 +71,4 @@ public class Disciplina extends Produto implements PrototipavelIF{
 	public PrototipavelIF prototipar() {
 		return new Disciplina(this);
 	}
-
 }
