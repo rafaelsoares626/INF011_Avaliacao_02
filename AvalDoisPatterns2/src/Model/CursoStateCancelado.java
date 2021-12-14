@@ -8,3 +8,4 @@ public class CursoStateCancelado extends CursoStateAbstract implements CursoStat
 	}
 
 }
+
