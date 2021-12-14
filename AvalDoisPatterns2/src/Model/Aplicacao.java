@@ -14,7 +14,7 @@ public class Aplicacao {
 	
 	//Questao 01 => Memento
 	//Questao 02 => Observer
-	//Quest„o 03 => State	
+	//Quest√£o 03 => State	
 	public void segundaAvalicao() throws InterruptedException, InstantiationException, IllegalAccessException, ClassNotFoundException, IllegalArgumentException, InvocationTargetException, NoSuchMethodException, SecurityException {
 		ProdutoFactory factory = (ProdutoFactory) (Class.forName(Aplicacao.PRODUTO.getFactoryName()).getDeclaredConstructor().newInstance());
 		Stack<Curso.Situacao> situacoes = new Stack<Curso.Situacao>();
@@ -66,7 +66,7 @@ public class Aplicacao {
 		System.out.println(" ");	
 		cursoCriacionais.restore(situacoes.pop());
 		System.out.println(" ");
-		System.out.println("Restaurando para o ultimo estado v·lido...");
+		System.out.println("Restaurando para o ultimo estado v√°lido...");
 		System.out.println(" ");
 		System.out.println(cursoCriacionais.toString());
 		System.out.println("===========================================================================");
@@ -103,4 +103,5 @@ public class Aplicacao {
 		Aplicacao app = new Aplicacao();
 		app.segundaAvalicao();
 	}
+	
 }
