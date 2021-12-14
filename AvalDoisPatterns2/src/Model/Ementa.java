@@ -41,6 +41,6 @@ public class Ementa{
 		System.out.println("EMENTA DO CURSO" + "\n\nNome do curso: " + this.nome + "\n\nCodigo do curso: " + this.codigo +
 						   "\n\nCarga horaria do curso: "+ this.chTotal + " Horas" + "\n\nDisciplinas do curso: " + this.mostrarDisciplinasCurso() +
 						   "\n\nLivros do curso: " + this.mostrarLivrosCurso());
-	}	
+	}
 
 }
