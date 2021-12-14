@@ -188,6 +188,5 @@ public class Curso extends Produto implements PrototipavelIF {
 	
 	public String getEstado() {
 		return this.state.getEstado();
-	}
-	
+	}	
 }
