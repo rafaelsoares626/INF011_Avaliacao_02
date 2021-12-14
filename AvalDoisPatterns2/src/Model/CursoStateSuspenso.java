@@ -27,4 +27,5 @@ public class CursoStateSuspenso extends CursoStateAbstract implements CursoState
 	public String getEstado() {
 		return "O curso esta suspenso!";
 	}
+	
 }
