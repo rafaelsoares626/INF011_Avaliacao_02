@@ -43,4 +43,5 @@ public abstract class CursoStateAbstract implements CursoStateIF {
 	public String getCertificado() {
 		return "Voce nao tem direito a certificado, pois nao concluiu o curso. Va estudar!!!";
 	}
+	
 }
