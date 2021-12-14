@@ -13,5 +13,4 @@ public class DisciplinaFactory extends ProdutoFactory{
 	public Produto createProduto() {
 		return new Disciplina(this.nome, this.codigo, 50, 60, 0);
 	}
-
 }
