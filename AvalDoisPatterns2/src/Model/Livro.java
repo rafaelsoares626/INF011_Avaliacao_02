@@ -45,5 +45,4 @@ public class Livro extends Produto implements PrototipavelIF{
 	public PrototipavelIF prototipar() {
 		return new Livro(this);
 	}
-
 }
