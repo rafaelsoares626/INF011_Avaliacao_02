@@ -22,3 +22,4 @@ public class NotificacaoWhatsappObserver implements ObserverIF {
 	}
 
 }
+
