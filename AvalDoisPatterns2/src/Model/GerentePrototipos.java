@@ -28,4 +28,3 @@ public class GerentePrototipos {
 		return (Curso) registros.get(chave).prototipar();
 	}
 }
-
